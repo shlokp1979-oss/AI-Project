@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url("1st.png") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(8, 20, 235);
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #00c6ff;
+  color: rgb(224, 9, 9);
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  padding: 40px;
+  text-align: center;
+  background-color: #06b2e6;
+}
+
+.card {
+  border: 5px solid #248908;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.card img {
+  width: 200px;
+}
